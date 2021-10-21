@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="scoring.css">
+    <title>DIVE INTO SAMPLE JavaScript</title>
+  </head>
+  <body>
+    <div class="container">
+      <br><br>
+      <p>Name: Test 太郎</p>
+      <p>National language: <input type="number" value="0" id="nationalLanguage"></p>
+      <p>English grammar: <input type="number" value="0" id="english"></p>
+      <p>Mathematics: <input type="number" value="0" id="math"></p>
+      <p>Science: <input type="number" value="0" id="science"></p>
+      <p>Social studies: <input type="number" value="0" id="social"></p>
+      <br><br>
+      <p>SUM: <label id="sum"></label></p>
+      <br><br>
+      <p>AVG: <label id="average"></label></p>
+      <br><br>
+      <p><label class="btn btnPrimary" id="btnEval">Grade</label> : <label id="eval"></label></p>
+      <br><br>
+      <p><label class="btn btnSuccess" id="btnJudge">Pass/Fail</label> : <label id="judge"></label></p>
+      <br><br>
+      <p><label class="btn btnWarning" id="btnDeclare">Result</label> : <label id="declare"></label></p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scoring.js"></script>
+  </body>
+</html>
